@@ -1,0 +1,15 @@
+runtime: python310
+instance_class: F1
+
+handlers:
+- url: /.*
+  script: auto
+
+env_variables:
+  API_KEY: YOUR_API_KEY
+  # ... other environment variables
+
+automatic_scaling:
+  max_instances: 10
+  # ... other scaling settings
+entrypoint: python frontend.py

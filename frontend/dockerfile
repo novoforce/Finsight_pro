@@ -1,0 +1,19 @@
+# Base image with Python 3.10
+FROM python:3.10
+
+# Set working directory
+WORKDIR /app
+
+# Copy requirements file and install dependencies
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copy application files
+COPY . .
+
+# Expose the Gradio port (default is 7860)
+ENV GRADIO_SERVER_NAME="0.0.0.0"
+EXPOSE 7860
+
+# Run the Gradio application
+CMD ["gradio", "frontend.py"]

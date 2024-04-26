@@ -1,0 +1,17 @@
+.gradio-container{
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.upload-field{
+    height: 210px;
+}
+
+.search_btn{
+    height: 105.59px;
+}
+
+.accordian{
+    color: black;
+}
+
+footer{display:none !important}
