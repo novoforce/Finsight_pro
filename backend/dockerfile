@@ -1,0 +1,40 @@
+# Base image with Python and system dependencies
+FROM python:3.10-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies (including PyMuPDF requirements)
+RUN echo "deb http://mirror.example.com/debian bookworm main contrib non-free" > /etc/apt/sources.list
+RUN echo "deb-src http://mirror.example.com/debian bookworm main contrib non-free" >> /etc/apt/sources.list
+
+RUN apt-get update 
+
+# Install dependencies (verify package names and compatibility)
+RUN apt-get install -y \
+    libpopt-dev \
+    libjpeg-dev \
+    zlib1g-dev \
+    libfreetype6-dev \
+    liblcms2-dev \
+    libwebp-dev \
+    tcl-dev \
+    tk-dev \
+    python3-tk \
+    libffi-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements file
+COPY requirements.txt ./
+
+# Install Python dependencies (including PyMuPDF)
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy your application files
+COPY . .
+
+# Expose port
+EXPOSE 8001
+
+# Run your application
+CMD ["python", "report_generation_backend.py"]

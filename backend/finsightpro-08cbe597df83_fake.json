@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "finsightpro",
+  "private_key_id": "08cbe597df83a9845abahydb055d0f229cefd5d3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDyXUMh5bHbfKpM\nPUcUjBM29+NvZJI8ILXMOx7R2kw98sJNboKDEbxBRVRrp7sFpDKpdSa2Cqglhu8Y\nZSKNrf/ya+8DY5k5QCBW+Bj/vxwrgPLSNx01KsxfxnvboW/Dih9fx5lTjHy3Z6NP\nxqdbaslUGWTXXEevV8c7KFiStvGpT+rpNcRE/2kIXG8Gu1zv8aUNmiWUxr94Cjr9\nbYdetpVQ70ubWZq/grOyqDGBGzfSj1iRw++JjHplklHIX1TxJ+IisEfgYwPehD+G\nCCAuw/8ZpM19PrEBMtlNyHkb62Qo+ElmK5ztCMkuysXd8k56hv/R54aBa5qaa+2H\nwNQ1DhOJAgMBAAECggEAAUpn2h1cBhwy1/cXks9wJsHJL0Ws1a8i6LSD5IAyGb5a\nNIlbHpGQnBRfb7dT8qK+NlLOYvfJj3GZglq/hVug2kyi2DTGkxx5T51AnNQKtVyZ\nbm8ms6rHrdbjv/arHrJ0mlD4yw4bd+qQXxNivsThz5XXCKKQKynfgLwlRJq+zLUC\nlxESmsdMIl2PkEnFB5m5S17aGBngDmHac3ntyGshfwP1yC7z3m1moy+nMG6YJ2lH\nfzGX1kup74rkciL1VOMrLoFHw65oqAIJPzoEWuDYfPaNQrNV5YAHsZ3EFbHqOwj+\nuvSLWM7BUrQvF9tSwPtsMNgRTtFB6tkz9Qi0+mae0QKBgQD61bDSqEI5YamqQIs1\neeI9QgPvYvORFBY9Q+0sTntOQMxsVHPFBPpmB8H0yzTdjPNRmwB22w4gEKlVnJMc\napWbyDYi2osIB+/CHZxFBgpZQh7LE+UR1ccbBHbphO5dqPT9EUwrL3szmnPINLOR\n3fv/r0+L1vsnglBZ0cGMQqaW7QKBgQD3WuslEXD2rv2j4Fm7XJFQ/KAj5BgEZAT8\nBArNPQoxrvnxgoIJh7irIMie8L2UN1rPmkYEIgXinae1u0Wkd4iwOGVoiQR7Km1t\nE99TiKtxKx2vVpMh24VGP3IOJsJl5RLfzm+6Geb6eBgOgJiDLC8u4pZmlATQ6Fci\nkwjO1hdfjQKBgCilkC3Szkh2JwRLyUM1KRA8Ll8Qbd/InYH4C+ruHNUlcvrrBIec\nsubtwuRkOYDdYmCK+ZxJCxTvHkGdScmFDBFedEdZmsYGYzfVjIky3WJxcIQACVLG\njak3I/3baLUMuAZ6Uxl8bD6EfNaok6DDlB5uzjke8TwJxfOIJhEQi+ZRAoGAC5Ni\nq8JsMe8wiYnHSUBkwJCCAgv7n8D6hry9sKspnfedVNMRuNZ0KvYGzYFgrd4FTu/e\nVPUup1NPdO7FrJO3ft+0xzaaUhVDN7aVXfhoZYxqADmh+xSl4Qq5ELZ5pIEa6ARm\nMCRkLdaO8abM/F6F+sC53yUQMKKe6UxOPjfAskUCgYEA1o0PKTQcZ38pMcG3mpqt\nHlDfQ9P6QA1Uiia+3rZfVRCt+V9hvEabdNRusBg0b5lXnIGaswbwhqRg3yHBpmWw\nexxGQ16ItC7JFMW4+Pmh2Z/C6BpK6DrPN+U3KNlwEcBq1MMwZoBpoqKk8Lc7WByu\ndw+fG/3ZlaOqR8B28bRQWX4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "finsightpro-sa@finsightpro.iam.gserviceaccount.com",
+  "client_id": "109477444176061675470",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/finsightpro-sa%40finsightpro.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
